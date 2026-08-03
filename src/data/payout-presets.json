@@ -1,0 +1,9 @@
+[
+  { "id": "top2_6040",      "label": "2 places · 60 / 40",           "splits": [60, 40] },
+  { "id": "top3_502030",    "label": "3 places · 50 / 30 / 20",      "splits": [50, 30, 20] },
+  { "id": "top3_603010",    "label": "3 places · 60 / 30 / 10",      "splits": [60, 30, 10] },
+  { "id": "top4_50251510",  "label": "4 places · 50 / 25 / 15 / 10", "splits": [50, 25, 15, 10] },
+  { "id": "top4_40302010",  "label": "4 places · 40 / 30 / 20 / 10", "splits": [40, 30, 20, 10] },
+  { "id": "top5_402520105", "label": "5 places · 40 / 25 / 20 / 10 / 5", "splits": [40, 25, 20, 10, 5] },
+  { "id": "custom",         "label": "Custom",                         "splits": [] }
+]

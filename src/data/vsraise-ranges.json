@@ -1,0 +1,140 @@
+{
+  "buckets": [15, 20, 25, 40, 100],
+  "data": {
+    "15": {
+      "BB": {
+        "UTG": { "threeBet": ["KK+", "AKo"],          "call": ["QQ", "JJ", "TT", "AQs+", "AKs"] },
+        "MP":  { "threeBet": ["KK+", "AKs", "AKo"],   "call": ["QQ", "JJ", "TT", "AQs+"] },
+        "CO":  { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "99", "AQs+", "KQs"] },
+        "BTN": { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs"] },
+        "SB":  { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "AQs+", "KQs"] }
+      },
+      "SB": {
+        "UTG": { "threeBet": ["KK+", "AKo"],          "call": ["QQ", "JJ", "AQs+"] },
+        "MP":  { "threeBet": ["KK+", "AKs", "AKo"],   "call": ["QQ", "JJ", "AQs+"] },
+        "CO":  { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "AQs+", "KQs"] },
+        "BTN": { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "99", "AQs+", "AJs", "KQs"] }
+      },
+      "BTN": {
+        "UTG": { "threeBet": ["KK+", "AKo"],          "call": ["QQ", "JJ", "AQs+", "AKs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "AQs+", "KQs"] },
+        "CO":  { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] }
+      },
+      "CO": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],   "call": ["QQ", "JJ", "AQs+"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo"],   "call": ["JJ", "TT", "AQs+", "KQs"] }
+      },
+      "MP": {
+        "UTG": { "threeBet": ["KK+", "AKo"],           "call": ["QQ", "JJ", "AQs+"] }
+      }
+    },
+    "20": {
+      "BB": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] },
+        "MP":  { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "99", "AQs+", "KQs"] },
+        "CO":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],      "call": ["JJ", "TT", "99", "AQs+", "AJs", "KQs", "QJs", "JTs"] },
+        "BTN": { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"], "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] },
+        "SB":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],      "call": ["JJ", "TT", "99", "AQs+", "AJs", "KQs", "QJs"] }
+      },
+      "SB": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] },
+        "MP":  { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] },
+        "CO":  { "threeBet": ["QQ+", "AKs", "AKo"],             "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] },
+        "BTN": { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],      "call": ["JJ", "TT", "99", "AQs+", "AJs", "KQs", "QJs", "JTs"] }
+      },
+      "BTN": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo"],             "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s"],     "call": ["TT", "99", "AJs", "AQo", "KQs", "QJs", "JTs"] }
+      },
+      "CO": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] },
+        "MP":  { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "TT", "99", "AQs+", "KQs"] }
+      },
+      "MP": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],             "call": ["QQ", "JJ", "AQs+", "KQs"] }
+      }
+    },
+    "25": {
+      "BB": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                  "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                  "call": ["JJ", "TT", "99", "88", "AQs+", "KQs", "QJs", "JTs"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s"],          "call": ["TT", "99", "88", "AJs", "AQo", "KQs", "QJs", "JTs", "T9s"] },
+        "BTN": { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s", "A3s"],   "call": ["TT", "99", "88", "77", "AJs", "ATo", "KQs", "KJs", "QJs", "JTs", "T9s", "98s"] },
+        "SB":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                  "call": ["JJ", "TT", "99", "AQs+", "AJs", "KQs", "QJs", "JTs"] }
+      },
+      "SB": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],                          "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo"],                          "call": ["JJ", "TT", "99", "AQs+", "KQs"] },
+        "CO":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                   "call": ["JJ", "TT", "99", "AQs+", "AJs", "KQs", "QJs"] },
+        "BTN": { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s"],           "call": ["TT", "99", "88", "AJs", "KQs", "QJs", "JTs", "T9s"] }
+      },
+      "BTN": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                          "call": ["JJ", "TT", "AQs+", "KQs", "QJs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                   "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs", "JTs"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s"],           "call": ["TT", "99", "88", "AJs", "KQs", "QJs", "JTs", "T9s"] }
+      },
+      "CO": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                          "call": ["JJ", "TT", "AQs+", "KQs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                   "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] }
+      },
+      "MP": {
+        "UTG": { "threeBet": ["KK+", "AKs", "AKo"],                          "call": ["QQ", "JJ", "TT", "AQs+", "KQs"] }
+      }
+    },
+    "40": {
+      "BB": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"],                       "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"],                       "call": ["JJ", "TT", "99", "88", "77", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s", "98s"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s", "A3s"],               "call": ["TT", "99", "88", "77", "AJs", "ATo", "KQs", "KJs", "QJs", "JTs", "T9s", "98s", "87s"] },
+        "BTN": { "threeBet": ["TT+", "AQs+", "AKo", "A5s", "A4s", "A3s", "A2s"],        "call": ["99", "88", "77", "66", "AJs", "ATo", "A9o", "KQs", "KJs", "KTs", "QJs", "JTs", "T9s", "98s", "87s", "76s"] },
+        "SB":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"],                       "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] }
+      },
+      "SB": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                                      "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                               "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s"],                       "call": ["TT", "99", "88", "AJs", "ATo", "KQs", "QJs", "JTs", "T9s"] },
+        "BTN": { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s", "A3s"],                "call": ["TT", "99", "88", "77", "AJs", "KQs", "QJs", "JTs", "T9s", "98s"] }
+      },
+      "BTN": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                                      "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs", "JTs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                               "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s"],                       "call": ["TT", "99", "88", "AJs", "ATo", "KQs", "QJs", "JTs", "T9s", "98s"] }
+      },
+      "CO": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                                      "call": ["JJ", "TT", "99", "AQs+", "KQs", "QJs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                               "call": ["JJ", "TT", "99", "88", "AQs+", "KQs", "QJs", "JTs"] }
+      },
+      "MP": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                                      "call": ["JJ", "TT", "99", "AQs+", "KQs"] }
+      }
+    },
+    "100": {
+      "BB": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s", "A3s"],                           "call": ["JJ", "TT", "99", "88", "77", "AQs+", "AJs", "ATs", "KQs", "KJs", "QJs", "JTs", "T9s", "98s"] },
+        "MP":  { "threeBet": ["JJ+", "AKs", "AKo", "AQs", "A5s", "A4s", "A3s"],                    "call": ["TT", "99", "88", "77", "66", "AJs", "ATs", "ATo", "KQs", "KJs", "KTs", "QJs", "JTs", "T9s", "98s", "87s"] },
+        "CO":  { "threeBet": ["TT+", "AQs+", "AKo", "A5s", "A4s", "A3s", "A2s", "KQs"],            "call": ["99", "88", "77", "66", "55", "AJs", "ATs", "ATo", "A9o", "KJs", "KTs", "QJs", "JTs", "T9s", "98s", "87s", "76s"] },
+        "BTN": { "threeBet": ["TT+", "AQs+", "AKo", "A5s", "A4s", "A3s", "A2s", "KQs", "K5s"],     "call": ["99", "88", "77", "66", "55", "44", "AJs", "ATs", "ATo", "A9o", "A8o", "KJs", "KTs", "K9s", "QJs", "QTs", "JTs", "T9s", "98s", "87s", "76s", "65s"] },
+        "SB":  { "threeBet": ["JJ+", "AKs", "AKo", "AQs", "A5s", "A4s", "A3s"],                    "call": ["TT", "99", "88", "77", "AJs", "ATs", "ATo", "KQs", "KJs", "QJs", "JTs", "T9s", "98s"] }
+      },
+      "SB": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                                          "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"],                                   "call": ["JJ", "TT", "99", "88", "77", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] },
+        "CO":  { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s", "A3s"],                           "call": ["TT", "99", "88", "77", "AJs", "ATo", "KQs", "KJs", "QJs", "JTs", "T9s", "98s"] },
+        "BTN": { "threeBet": ["JJ+", "AQs+", "AKo", "A5s", "A4s", "A3s", "A2s"],                    "call": ["TT", "99", "88", "77", "66", "AJs", "ATs", "KQs", "KJs", "QJs", "JTs", "T9s", "98s", "87s"] }
+      },
+      "BTN": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                                          "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"],                                   "call": ["JJ", "TT", "99", "88", "77", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s", "98s"] },
+        "CO":  { "threeBet": ["TT+", "AQs+", "AKo", "A5s", "A4s", "A3s"],                           "call": ["99", "88", "77", "66", "AJs", "ATo", "KQs", "QJs", "JTs", "T9s", "98s", "87s"] }
+      },
+      "CO": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo", "A5s"],                                          "call": ["JJ", "TT", "99", "88", "AQs+", "AJs", "KQs", "QJs", "JTs"] },
+        "MP":  { "threeBet": ["QQ+", "AKs", "AKo", "A5s", "A4s"],                                   "call": ["JJ", "TT", "99", "88", "77", "AQs+", "AJs", "KQs", "QJs", "JTs", "T9s"] }
+      },
+      "MP": {
+        "UTG": { "threeBet": ["QQ+", "AKs", "AKo"],                                                  "call": ["JJ", "TT", "99", "88", "AQs+", "KQs", "QJs"] }
+      }
+    }
+  }
+}

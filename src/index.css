@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* Light mode defaults */
+  --color-base:           oklch(0.97  0.004 145);
+  --color-surface:        oklch(0.93  0.006 145);
+  --color-surface-raised: oklch(0.87  0.008 145);
+  --color-surface-hover:  oklch(0.82  0.010 145);
+  --color-border:         oklch(0.76  0.012 145);
+  --color-ink:            oklch(0.12  0.010 145);
+  --color-ink-muted:      oklch(0.33  0.010 145);
+  --color-ink-dim:        oklch(0.38  0.009 145);
+  --color-accent:         oklch(0.52  0.155 145);
+  --color-accent-lit:     oklch(0.35  0.155 145);
+  --color-bet:            oklch(0.46  0.15  252);
+  --color-bet-lit:        oklch(0.32  0.14  252);
+
+  /* Warning banner - light defaults */
+  --color-warn-surface:   oklch(0.95  0.025  75);
+  --color-warn-edge:      oklch(0.76  0.09   72);
+  --color-warn-ink:       oklch(0.40  0.12   65);
+  --color-warn-strong:    oklch(0.35  0.13   65);
+  --color-warn-hover:     oklch(0.90  0.04   74);
+}
+
+html.dark {
+  --color-base:           oklch(0.09  0.007 145);
+  --color-surface:        oklch(0.14  0.009 145);
+  --color-surface-raised: oklch(0.20  0.011 145);
+  --color-surface-hover:  oklch(0.25  0.012 145);
+  --color-border:         oklch(0.27  0.012 145);
+  --color-ink:            oklch(0.96  0.004 145);
+  --color-ink-muted:      oklch(0.62  0.010 145);
+  --color-ink-dim:        oklch(0.50  0.009 145);
+  --color-accent:         oklch(0.52  0.155 145);
+  --color-accent-lit:     oklch(0.67  0.155 145);
+  --color-bet:            oklch(0.46  0.15  252);
+  --color-bet-lit:        oklch(0.66  0.12  252);
+
+  /* Warning banner - dark overrides */
+  --color-warn-surface:   oklch(0.16  0.04   65);
+  --color-warn-edge:      oklch(0.35  0.10   68);
+  --color-warn-ink:       oklch(0.76  0.12   75);
+  --color-warn-strong:    oklch(0.84  0.09   76);
+  --color-warn-hover:     oklch(0.22  0.05   66);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--color-base);
+  color: var(--color-ink);
+  font-family: system-ui, -apple-system, sans-serif;
+  overscroll-behavior: none;
+  margin: 0;
+}
+
+#root {
+  min-height: 100svh;
+}
