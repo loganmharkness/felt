@@ -1,4 +1,4 @@
-// Generates simple PWA icon PNGs using browser-compatible canvas
+// Generates simple PWA icon PNGs. Needs canvas, which is not a project dependency: npm i --no-save canvas
 import { createCanvas } from 'canvas';
 import { writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
